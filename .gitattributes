@@ -1,2 +1,39 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Synch</title>
+    <style>
+      h1 {
+        color: rgba(1, 2, 3, 0.4);
+        background-color: antiquewhite;
+        font-size: xx-large;
+        font-family: "Courier New", Courier, monospace;
+        font-weight: bolder;
+        font-style: italic;
+        text-transform: capitalize;
+        text-decoration: overline;
+        /* Horizontal Vertical Blur-Value Color */
+        text-shadow: 5px 6px 7px #000;
+      }
+      p {
+        font-style: oblique;
+        word-spacing: normal;
+        letter-spacing: normal;
+        line-height: 20px;
+        font-size: large;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Asynch, Await and CSS</h1>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam minus
+      odit cumque expedita pariatur, accusantium illum ullam veritatis sit
+      repellendus laborum natus accusamus corporis! Molestiae tenetur voluptatum
+      quod est adipisci.
+    </p>
+    <script src="./synch.js"></script>
+  </body>
+</html>
